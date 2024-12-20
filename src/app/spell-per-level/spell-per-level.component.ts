@@ -29,12 +29,23 @@ export class SpellPerLevelComponent {
  }
 
   passDay(currentCasterLevel: CasterLevel){
-    if(currentCasterLevel == undefined){
-      console.error("Array ist nicht definiert")
+    this.globalTime++
+    this.selectSpellLevelX(currentCasterLevel.spellLevel1);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel2);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel3);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel4);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel5);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel6);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel7);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel8);
+    this.selectSpellLevelX(currentCasterLevel.spellLevel9);
+  }
+
+  private selectSpellLevelX(selectedSpellLevel: Spell[] | undefined) {
+    if(selectedSpellLevel == undefined){
       return;
     }
-    this.globalTime++
-    for (const spell of currentCasterLevel.spellLevel1) {
+    for (const spell of selectedSpellLevel) {
       this.rechargingSpell(spell)
     }
   }
