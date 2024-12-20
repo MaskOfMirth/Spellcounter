@@ -22,6 +22,8 @@
     <option value="19">19</option>
     <option value="20">20</option>
 </select>
-<section class="spellPerLevel">
-    <button class="spellLevel" onclick="castingSpell()">Ready</button>
+<section class="actionroom" @for(value of spellLevel1; track )>
+    <div class="SlotLevel">1st level spells:       
+        <button class="spellLevel" onclick="castingSpell()">Ready</button>
+    </div>
 </section>

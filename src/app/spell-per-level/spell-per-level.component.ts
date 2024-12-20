@@ -1,3 +1,4 @@
+import { CommonModule, NgFor } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 

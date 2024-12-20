@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { SpellPerLevelComponent } from './spell-per-level/spell-per-level.component';
+import { CommonModule } from '@angular/common';
 
 
 @Component({
