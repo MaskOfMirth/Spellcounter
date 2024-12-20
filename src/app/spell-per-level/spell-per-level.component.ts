@@ -40,7 +40,7 @@ export class SpellPerLevelComponent {
         spellPerLevel[slotPosition].slotName = (spellPerLevel[slotPosition].remainingDays).toString();
         spellPerLevel[slotPosition].remainingDays = spellPerLevel[slotPosition].spellLevel*2;
         spellPerLevel[slotPosition].onCoolDown = true;
- }
+  }
 
   passDay(currentCasterLevel: CasterLevel){
     this.globalTime++
@@ -79,532 +79,532 @@ export class SpellPerLevelComponent {
   spellPerLevelList: CasterLevel[] = [
     {
       spellLevel1: [  
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ]
     },
     {
 
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
       ],
       spellLevel8: [
-        {spellLevel: 8,slotName: "Slot 1", remainingDays: 16, onCoolDown: false}
+        {spellLevel: 8,slotName: "Ready", remainingDays: 16, onCoolDown: false}
       ]
 
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
       ],
       spellLevel8: [
-        {spellLevel: 8,slotName: "Slot 1", remainingDays: 16, onCoolDown: false}
+        {spellLevel: 8,slotName: "Ready", remainingDays: 16, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
       ],
       spellLevel8: [
-        {spellLevel: 8,slotName: "Slot 1", remainingDays: 16, onCoolDown: false}
+        {spellLevel: 8,slotName: "Ready", remainingDays: 16, onCoolDown: false}
       ],
       spellLevel9: [
-        {spellLevel: 9,slotName: "Slot 1", remainingDays: 18, onCoolDown: false}
+        {spellLevel: 9,slotName: "Ready", remainingDays: 18, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 3", remainingDays: 10, onCoolDown: false}
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false}
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
       ],
       spellLevel8: [
-        {spellLevel: 8,slotName: "Slot 1", remainingDays: 16, onCoolDown: false}
+        {spellLevel: 8,slotName: "Ready", remainingDays: 16, onCoolDown: false}
       ],
       spellLevel9: [
-        {spellLevel: 9,slotName: "Slot 1", remainingDays: 18, onCoolDown: false}
+        {spellLevel: 9,slotName: "Ready", remainingDays: 18, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 3", remainingDays: 10, onCoolDown: false}
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false}
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
-        {spellLevel: 6,slotName: "Slot 2", remainingDays: 12, onCoolDown: false}
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false}
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
       ],
       spellLevel8: [
-        {spellLevel: 8,slotName: "Slot 1", remainingDays: 16, onCoolDown: false}
+        {spellLevel: 8,slotName: "Ready", remainingDays: 16, onCoolDown: false}
       ],
       spellLevel9: [
-        {spellLevel: 9,slotName: "Slot 1", remainingDays: 18, onCoolDown: false}
+        {spellLevel: 9,slotName: "Ready", remainingDays: 18, onCoolDown: false}
       ]
     },
     {
       spellLevel1: [
-        {spellLevel: 1,slotName: "Slot 1", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 2", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 3", remainingDays: 2, onCoolDown: false},
-        {spellLevel: 1,slotName: "Slot 4", remainingDays: 2, onCoolDown: false}
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false},
+        {spellLevel: 1,slotName: "Ready", remainingDays: 2, onCoolDown: false}
       ],
       spellLevel2: [
-        {spellLevel: 2,slotName: "Slot 1", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 2", remainingDays: 4, onCoolDown: false},
-        {spellLevel: 2,slotName: "Slot 3", remainingDays: 4, onCoolDown: false}
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false},
+        {spellLevel: 2,slotName: "Ready", remainingDays: 4, onCoolDown: false}
       ],
       spellLevel3: [
-        {spellLevel: 3,slotName: "Slot 1", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 2", remainingDays: 6, onCoolDown: false},
-        {spellLevel: 3,slotName: "Slot 3", remainingDays: 6, onCoolDown: false}
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false},
+        {spellLevel: 3,slotName: "Ready", remainingDays: 6, onCoolDown: false}
       ],
       spellLevel4: [
-        {spellLevel: 4,slotName: "Slot 1", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 2", remainingDays: 8, onCoolDown: false},
-        {spellLevel: 4,slotName: "Slot 3", remainingDays: 8, onCoolDown: false}
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false},
+        {spellLevel: 4,slotName: "Ready", remainingDays: 8, onCoolDown: false}
       ],
       spellLevel5: [
-        {spellLevel: 5,slotName: "Slot 1", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 2", remainingDays: 10, onCoolDown: false},
-        {spellLevel: 5,slotName: "Slot 3", remainingDays: 10, onCoolDown: false}
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false},
+        {spellLevel: 5,slotName: "Ready", remainingDays: 10, onCoolDown: false}
       ],
       spellLevel6: [
-        {spellLevel: 6,slotName: "Slot 1", remainingDays: 12, onCoolDown: false},
-        {spellLevel: 6,slotName: "Slot 2", remainingDays: 12, onCoolDown: false}
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false},
+        {spellLevel: 6,slotName: "Ready", remainingDays: 12, onCoolDown: false}
       ],
       spellLevel7: [
-        {spellLevel: 7,slotName: "Slot 1", remainingDays: 14, onCoolDown: false},
-        {spellLevel: 7,slotName: "Slot 2", remainingDays: 14, onCoolDown: false}
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false},
+        {spellLevel: 7,slotName: "Ready", remainingDays: 14, onCoolDown: false}
       ],
       spellLevel8: [
-        {spellLevel: 8,slotName: "Slot 1", remainingDays: 16, onCoolDown: false}
+        {spellLevel: 8,slotName: "Ready", remainingDays: 16, onCoolDown: false}
       ],
       spellLevel9: [
-        {spellLevel: 9,slotName: "Slot 1", remainingDays: 18, onCoolDown: false}
+        {spellLevel: 9,slotName: "Ready", remainingDays: 18, onCoolDown: false}
       ]
     },
   ]
