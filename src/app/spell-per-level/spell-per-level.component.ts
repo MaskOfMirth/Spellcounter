@@ -28,21 +28,25 @@ export class SpellPerLevelComponent {
         spellPerLevel[slotPosition].onCoolDown = true;
  }
 
-  passDay(currentCasterLevel: CasterLevel, casterLevel: number){
+  passDay(currentCasterLevel: CasterLevel){
     if(currentCasterLevel == undefined){
       console.error("Array ist nicht definiert")
       return;
     }
     this.globalTime++
     for (const spell of currentCasterLevel.spellLevel1) {
-      if(spell.onCoolDown == true){
-        spell.remainingDays--
-        spell.slotName = spell.remainingDays.toString()
-        if(spell.remainingDays == 0){
-          spell.slotName = "Ready";
-          spell.remainingDays = spell.spellLevel*2;
-          spell.onCoolDown = false;
-        }
+      this.rechargingSpell(spell)
+    }
+  }
+
+  private rechargingSpell(spell: Spell) {
+    if(spell.onCoolDown == true){
+      spell.remainingDays--
+      spell.slotName = spell.remainingDays.toString()
+      if(spell.remainingDays == 0){
+        spell.slotName = "Ready";
+        spell.remainingDays = spell.spellLevel*2;
+        spell.onCoolDown = false;
       }
     }
   }
