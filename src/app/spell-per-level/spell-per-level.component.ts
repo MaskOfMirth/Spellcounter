@@ -17,50 +17,18 @@ export class SpellPerLevelComponent {
   public globalTime: number = 0;
   cdVariable: number = 0;
 
-  castSpell(spellPerLevel: ( Spell[] | undefined), slotPosition: number, cdVariable: number){
+  castSpell(spellPerLevel: ( Spell[] | undefined), slotPosition: number){
     if(spellPerLevel == undefined){
       console.error("Array ist nicht definiert")
       return;
     }
-    switch(cdVariable){
-      case 1:
-        spellPerLevel[slotPosition].slotName = "2";
-        this.clicked[slotPosition] = true;
-        break;
-      case 2:
-        spellPerLevel[slotPosition].slotName = "4"
-        break;
-      case 3:
-        spellPerLevel[slotPosition].slotName = "6";
-        break;
-      case 4:
-        spellPerLevel[slotPosition].slotName = "8";
-        break;
-      case 5:
-        spellPerLevel[slotPosition].slotName = "10";
-        break;
-      case 6:
-        spellPerLevel[slotPosition].slotName = "12";
-        break;
-      case 7:
-        spellPerLevel[slotPosition].slotName = "14";
-        break;
-      case 8:
-        spellPerLevel[slotPosition].slotName = "16";
-        break;
-      case 9:
-        spellPerLevel[slotPosition].slotName = "18";
-        break;
-    }
+        spellPerLevel[slotPosition].slotName = (spellPerLevel[slotPosition].spellLevel*2).toString();
+        spellPerLevel[slotPosition].onCoolDown = true
  }
 
   passDay(){
     this.globalTime++
   }
-
-  clicked: boolean[] = [
-    false,false,false,false
-  ]
 
   spellPerLevelList = [
     {
