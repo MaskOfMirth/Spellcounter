@@ -11,13 +11,24 @@ import { FormsModule } from '@angular/forms';
 })
 export class SpellPerLevelComponent {
   castSpell(){
-    let i = ""
-    if(this.i === "Recharging"){
-      this.i = "Ready"
+    this.spellPerLevelList[this.casterLevel - 1].spellLevel1[0] = "Recharging"
+  }
+
+  castLevel1(){
+    let dayOfCast: number = this.globalTime.valueOf()
+    if(this.globalTime === dayOfCast+2){
+      this.spellPerLevelList[this.casterLevel - 1].spellLevel1[0] = "Slot 1"
     }
     else{
-      this.i = "Recharging"
+      this.spellPerLevelList[this.casterLevel - 1].spellLevel1[0] = "Recharging"
     }
+  }
+
+  identifySlot(){
+  }
+
+  passDay(){
+    this.globalTime++
   }
 
   spellPerLevelList = [
@@ -192,5 +203,5 @@ export class SpellPerLevelComponent {
     },
   ]
   public casterLevel: number = 1;
-  public i: string = "Ready"
+  public globalTime: number = 0;
 }
