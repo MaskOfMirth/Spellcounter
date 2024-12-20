@@ -10,32 +10,62 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './spell-per-level.component.css'
 })
 export class SpellPerLevelComponent {
-  castSpell(spellPerLevel: (string[] | undefined), slotPosition: number){
+  castSpell(spellPerLevel: (string[] | undefined), slotPosition: number, cdVariable: number){
     if(spellPerLevel == undefined){
-      console.error("Nicht definiert")
+      console.error("Array ist nicht definiert")
       return;
     }
-    spellPerLevel[slotPosition] = "RC"
-    // this.spellPerLevelList[this.casterLevel - 1].spellLevel1[0] = "Recharging"
-    // this.spellPerLevelList[this.casterLevel - 1].spellLevel2[0] = "Recharging"
+    switch(cdVariable){
+      case 1:
+        spellPerLevel[slotPosition] = "2";
+        this.clicked[slotPosition] = true;
+        break;
+      case 2:
+        spellPerLevel[slotPosition] = "4"
+        break;
+      case 3:
+        spellPerLevel[slotPosition] = "6";
+        break;
+      case 4:
+        spellPerLevel[slotPosition] = "8";
+        break;
+      case 5:
+        spellPerLevel[slotPosition] = "10";
+        break;
+      case 6:
+        spellPerLevel[slotPosition] = "12";
+        break;
+      case 7:
+        spellPerLevel[slotPosition] = "14";
+        break;
+      case 8:
+        spellPerLevel[slotPosition] = "16";
+        break;
+      case 9:
+        spellPerLevel[slotPosition] = "18";
+        break;
+    }
+
+    // let dayOfCast: number = this.globalTime.valueOf();
+    // if(this.globalTime === dayOfCast+2){
+    //   spellPerLevel[slotPosition] = "Ready"
+    // }
+    // else{
+    //    spellPerLevel[slotPosition] = dayOfCast.toString()
+    // }
   }
 
-  castLevel1(){
-    let dayOfCast: number = this.globalTime.valueOf()
-    if(this.globalTime === dayOfCast+2){
-      this.spellPerLevelList[this.casterLevel - 1].spellLevel1[0] = "Slot 1"
-    }
-    else{
-      this.spellPerLevelList[this.casterLevel - 1].spellLevel1[0] = "Recharging"
-    }
-  }
-
-  identifySlot(){
-  }
+  // lockButton(slotPosition: number){
+  //   this.clicked = true
+  // }
 
   passDay(){
     this.globalTime++
   }
+
+  clicked: boolean[] = [
+    false,false,false,false
+  ]
 
   spellPerLevelList = [
     {
@@ -208,6 +238,8 @@ export class SpellPerLevelComponent {
       spellLevel9: ["Slot 1"]
     },
   ]
+
   public casterLevel: number = 1;
   public globalTime: number = 0;
+  cdVariable: number = 0;
 }

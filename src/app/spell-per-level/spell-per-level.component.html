@@ -24,48 +24,50 @@
 </select>
 <section class="actionroom">
     <div><span>Spell Slot Level 1: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel1; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel1, $index)" (click)="identifySlot()">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel1; track $index) {
+            <button class="spellLevel1" [disabled]="clicked[$index]" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel1, $index, cdVariable = 1)">
+                {{buttonFace}}
+            </button>
         }
     </div>
     <div><span>Spell Slot Level 2: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel2; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel2, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel2; track $index) {
+            <button class="spellLevel2" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel2, $index, cdVariable = 2)">{{buttonFace}}</button>
         }
     </div>
     <div><span>Spell Slot Level 3: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel3; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel3, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel3; track $index) {
+            <button class="spellLevel3" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel3, $index, cdVariable = 3)">{{buttonFace}}</button>
         }
     </div>
     <div><span>Spell Slot Level 4: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel4; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel4, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel4; track $index) {
+            <button class="spellLevel4" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel4, $index, cdVariable = 4)">{{buttonFace}}</button>
         }
     </div>
     <div><span>Spell Slot Level 5: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel5; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel5, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel5; track $index) {
+            <button class="spellLevel5" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel5, $index, cdVariable = 5)">{{buttonFace}}</button>
         }
     </div>
     <div><span>Spell Slot Level 6: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel6; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel6, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel6; track $index) {
+            <button class="spellLevel6" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel6, $index, cdVariable = 6)">{{buttonFace}}</button>
         }
     </div>
     <div><span>Spell Slot Level 7: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel7; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel7, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel7; track $index) {
+            <button class="spellLevel7" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel7, $index, cdVariable = 7)">{{buttonFace}}</button>
         }
     </div>
     <div><span>Spell Slot Level 8: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel8; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel8, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel8; track $index) {
+            <button class="spellLevel8" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel8, $index, cdVariable = 8)">{{buttonFace}}</button>
         }
     </div>
     <div><span>Spell Slot Level 9: </span>
-        @for (ButtonFace of spellPerLevelList[casterLevel - 1].spellLevel9; track $index) {
-            <button class="spellLevel" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel9, $index)">{{ButtonFace}}</button>
+        @for (buttonFace of spellPerLevelList[casterLevel - 1].spellLevel9; track $index) {
+            <button class="spellLevel9" (click)="castSpell(spellPerLevelList[casterLevel - 1].spellLevel9, $index, cdVariable = 9)">{{buttonFace}}</button>
         }
     </div>
     <div>
