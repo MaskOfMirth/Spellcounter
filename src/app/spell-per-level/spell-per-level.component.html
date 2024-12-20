@@ -22,8 +22,17 @@
     <option value="19">19</option>
     <option value="20">20</option>
 </select>
-<section class="actionroom" @for(value of spellLevel1; track )>
-    <div class="SlotLevel">1st level spells:       
-        <button class="spellLevel" onclick="castingSpell()">Ready</button>
-    </div>
+<section class="actionroom">
+        <div>{{spellPerLevelList[casterLevel - 1].spellLevel1}}</div>
 </section>
+
+<!--@for (item of items; track item.name) {
+    <li>{{ item.name }}</li>
+    } @empty {
+    <li>There are no items.</li>
+    }
+    
+    <button class="spellLevel" onclick="castingSpell()">Ready</button> -->
+    <!--@for (item of spellPerLevelList; track $index) {
+        <li>{{item.spellLevel1}}</li>}-->
+    

@@ -21,43 +21,43 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 3,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 2
     },
     {
       classLevel: 4,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3
     },
     {
       classLevel: 5,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 2
     },
     {
       classLevel: 6,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3
     },
     {
       classLevel: 7,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 1
     },
     {
       classLevel: 8,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 2
     },
     {
       classLevel: 9,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -65,7 +65,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 10,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -73,7 +73,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 11,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -82,7 +82,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 12,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -91,7 +91,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 13,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -101,7 +101,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 14,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -111,7 +111,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 15,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -123,7 +123,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 16,
-      spellLevel: 4,
+      spellLevel1: ['R', 'R', 'R', 'R'],
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -134,7 +134,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 17,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -146,7 +146,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 18,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -158,7 +158,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 19,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -170,7 +170,7 @@ export class SpellPerLevelComponent {
     },
     {
       classLevel: 20,
-      spellLevel: 4,
+      spellLevel1: 4,
       spellLevel2: 3,
       spellLevel3: 3,
       spellLevel4: 3,
@@ -181,5 +181,5 @@ export class SpellPerLevelComponent {
       spellLevel9: 1
     },
   ]
-  public casterLevel: string = '1';
+  public casterLevel: number = 1;
 }
