@@ -18,6 +18,20 @@ export class SpellPerLevelComponent {
   public globalTime: number = 0;
   cdVariable: number = 0;
 
+  loadPreviousStatus(){
+    let status: any = localStorage.getItem("CurrentStatus")
+    this.spellPerLevelList = JSON.parse(status)
+    let level: any = localStorage.getItem("level")
+    this.casterLevel = JSON.parse(level)
+  }
+
+  saveCurrentStatus(){
+    let status = this.spellPerLevelList;
+    localStorage.setItem("CurrentStatus", JSON.stringify(status))
+    let level = this.casterLevel;
+    localStorage.setItem("level", JSON.stringify(level))
+  }
+
   castSpell(spellPerLevel: ( Spell[] | undefined), slotPosition: number){
     if(spellPerLevel == undefined){
       console.error("Array ist nicht definiert")

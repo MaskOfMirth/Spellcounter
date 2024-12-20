@@ -1,4 +1,11 @@
 <h2>Your current level is {{casterLevel}}</h2>
+<div>
+    <span>
+        <button (click)="loadPreviousStatus()">
+            Load previous Status
+        </button>
+    </span>
+</div>
 <label for="CasterLevel">Select your Caster Level</label>
 <select [(ngModel)]="casterLevel" name="CasterLevel" id="casterLevel">
     <option value="1">1</option>
@@ -108,6 +115,13 @@
         <span>  
             <button (click)="passDay(spellPerLevelList[casterLevel - 1])">Pass the Day</button>
             <Button>{{globalTime}}</Button>
+        </span>
+    </div>
+    <div>
+        <span>
+            <button (click)="saveCurrentStatus()">
+                Save current Status
+            </button>
         </span>
     </div>
 </section>
