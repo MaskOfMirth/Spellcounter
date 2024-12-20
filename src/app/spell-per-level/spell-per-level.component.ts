@@ -10,6 +10,16 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './spell-per-level.component.css'
 })
 export class SpellPerLevelComponent {
+  castSpell(){
+    let i = ""
+    if(this.i === "Recharging"){
+      this.i = "Ready"
+    }
+    else{
+      this.i = "Recharging"
+    }
+  }
+
   spellPerLevelList = [
     {
       classLevel: 1,
@@ -182,4 +192,5 @@ export class SpellPerLevelComponent {
     },
   ]
   public casterLevel: number = 1;
+  public i: string = "Ready"
 }
