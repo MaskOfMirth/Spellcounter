@@ -1,10 +1,12 @@
+:host{
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+}
 .spellButton{
 font-size: large;
 width: 75px;
-}
-
-.passButton{
-    font-size: large;
 }
 
 .SSLNumber{
@@ -14,10 +16,25 @@ width: 75px;
 }
 
 #action-room{
-    background-color: hsla(0, 0%, 100%, 0.5);
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-color: hsla(0, 100%, 100%, 0.5);
+    border-radius: 25px;
+    border-color: black;
+    border: 25px;
     width: fit-content;
     font-size: x-large;
-    align-content: center;
+}
+
+.spellButton{
+    border-radius: 8px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+
+.SSLNumber{
+    margin-left: 5px;
 }
 
 *{
