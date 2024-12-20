@@ -182,4 +182,7 @@ export class SpellPerLevelComponent {
     },
   ]
   public casterLevel: number = 1;
+
+  Arr = Array;
+  num:number = 0;
 }

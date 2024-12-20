@@ -23,15 +23,35 @@
     <option value="20">20</option>
 </select>
 <section class="actionroom">
-        <div><span>Spell Slot Level 1: </span>{{spellPerLevelList[casterLevel - 1].spellLevel1}}</div>
-        <div><span>Spell Slot Level 2: </span>{{spellPerLevelList[casterLevel - 1].spellLevel2}}</div>
-        <div><span>Spell Slot Level 3: </span>{{spellPerLevelList[casterLevel - 1].spellLevel3}}</div>
-        <div><span>Spell Slot Level 4: </span>{{spellPerLevelList[casterLevel - 1].spellLevel4}}</div>
-        <div><span>Spell Slot Level 5: </span>{{spellPerLevelList[casterLevel - 1].spellLevel5}}</div>
-        <div><span>Spell Slot Level 6: </span>{{spellPerLevelList[casterLevel - 1].spellLevel6}}</div>
-        <div><span>Spell Slot Level 7: </span>{{spellPerLevelList[casterLevel - 1].spellLevel7}}</div>
-        <div><span>Spell Slot Level 8: </span>{{spellPerLevelList[casterLevel - 1].spellLevel8}}</div>
-        <div><span>Spell Slot Level 9: </span>{{spellPerLevelList[casterLevel - 1].spellLevel9}}</div>
+    <div><span>Spell Slot Level 1: </span>
+        @for (i of Arr(spellPerLevelList[casterLevel - 1].spellLevel1).fill(1); track $index) {
+            <button class="spellLevel" onclick="castingSpell()">Ready</button>
+        }
+    </div>
+    <div><span>Spell Slot Level 2: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel2}}
+    </div>
+    <div><span>Spell Slot Level 3: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel3}}
+    </div>
+    <div><span>Spell Slot Level 4: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel4}}
+    </div>
+    <div><span>Spell Slot Level 5: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel5}}
+    </div>
+    <div><span>Spell Slot Level 6: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel6}}
+    </div>
+    <div><span>Spell Slot Level 7: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel7}}
+    </div>
+    <div><span>Spell Slot Level 8: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel8}}
+    </div>
+    <div><span>Spell Slot Level 9: </span>
+        {{spellPerLevelList[casterLevel - 1].spellLevel9}}
+    </div>
 </section>
 
 <!--@for (item of items; track item.name) {
@@ -41,6 +61,5 @@
     }
     
     <button class="spellLevel" onclick="castingSpell()">Ready</button> -->
-    <!--@for (item of spellPerLevelList; track $index) {
+<!--@for (item of spellPerLevelList; track $index) {
         <li>{{item.spellLevel1}}</li>}-->
-    
