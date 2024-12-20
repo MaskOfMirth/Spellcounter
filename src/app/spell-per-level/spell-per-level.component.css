@@ -1,15 +1,25 @@
 .spellButton{
-    width: 50px;
-    height: 20px;
+font-size: large;
+width: 75px;
 }
 
 .passButton{
-    width: 100px;
-    height: 30px;
+    font-size: large;
 }
 
 .SSLNumber{
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#action-room{
+    background-color: hsla(0, 0%, 100%, 0.5);
+    width: fit-content;
+    font-size: x-large;
+    align-content: center;
+}
+
+*{
+    font-size: large;
 }

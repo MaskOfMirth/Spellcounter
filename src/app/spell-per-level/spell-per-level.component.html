@@ -1,4 +1,4 @@
-<section >
+<section id="action-room">
     <h2>Your current level is {{casterLevel}}</h2>
     <div>
         <span>
@@ -30,7 +30,7 @@
         <option value="19">19</option>
         <option value="20">20</option>
     </select>
-    <section class="actionroom">
+    <section>
         <div><span class="SSLNumber">Spell Slot Level 1: </span>
             @for (spell of spellPerLevelList[casterLevel - 1].spellLevel1; track $index) {
                 <button class="spellButton" 
