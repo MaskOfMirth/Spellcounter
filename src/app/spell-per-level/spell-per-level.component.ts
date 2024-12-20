@@ -10,15 +10,14 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './spell-per-level.component.css'
 })
 export class SpellPerLevelComponent {
-  castSpell(spellPerLevel: (string[] | undefined)){
+  castSpell(spellPerLevel: (string[] | undefined), slotPosition: number){
     if(spellPerLevel == undefined){
       console.error("Nicht definiert")
       return;
     }
-    spellPerLevel[0] = "RC"
+    spellPerLevel[slotPosition] = "RC"
     // this.spellPerLevelList[this.casterLevel - 1].spellLevel1[0] = "Recharging"
     // this.spellPerLevelList[this.casterLevel - 1].spellLevel2[0] = "Recharging"
-    debugger;
   }
 
   castLevel1(){
