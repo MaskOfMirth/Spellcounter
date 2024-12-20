@@ -1,35 +1,37 @@
-<section id="action-room">
+  <section id="action-room">
     <h2>Your current level is {{casterLevel}}</h2>
     <div>
         <span>
-            <button (click)="loadPreviousStatus()">
+            <button (click)="loadPreviousStatus()" class="center-bound">
                 Load previous Status
             </button>
         </span>
     </div>
-    <label for="CasterLevel">Select your Caster Level</label>
-    <select [(ngModel)]="casterLevel" name="CasterLevel" id="casterLevel">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-    </select>
+    <span class="center-bound">
+        <label for="CasterLevel">Select your Caster Level</label>
+        <select [(ngModel)]="casterLevel" name="CasterLevel" id="casterLevel">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+        </select>
+    </span>
     <section>
         <div><span class="SSLNumber">Spell Slot Level 1: </span>
             @for (spell of spellPerLevelList[casterLevel - 1].spellLevel1; track $index) {
@@ -112,17 +114,17 @@
                 </button>
             }
         </div>
-        <div>
-            <span>  
-                <button class="passButton" (click)="passDay(spellPerLevelList[casterLevel - 1])">Pass the Day</button>
-            </span>
-        </div>
-        <div>
-            <span>
-                <button (click)="saveCurrentStatus()">
-                    Save current Status
-                </button>
-            </span>
-        </div>
     </section>
+    <div>
+        <span>  
+            <button class="center-bound" (click)="passDay(spellPerLevelList[casterLevel - 1])">Pass the Day</button>
+        </span>
+    </div>
+    <div>
+        <span>
+            <button (click)="saveCurrentStatus()">
+                Save current Status
+            </button>
+        </span>
+    </div>
 </section>
